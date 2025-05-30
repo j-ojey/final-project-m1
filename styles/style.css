@@ -151,7 +151,7 @@ button {
 .explore-app {
   display: inline-block;
   padding: 15px 30px;
-  background-color: #4caf50;
+  background-color: #0dd4ea;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -159,7 +159,7 @@ button {
 }
 
 .explore-app:hover {
-  background-color: #45a049;
+  background-color: #f97dff;
 }
 
 .team {
@@ -211,58 +211,93 @@ button {
 }
 
 .testimonials {
-  padding: 50px 20px;
-  background: #ffffff;
+  padding: 80px 20px 50px;
+  background: #f5deb3;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .testimonials h2 {
   font-size: 28px;
   margin-bottom: 40px;
-  color: white;
-  position: relative;
+  color: #000;
 }
 
 .testimonial-grid {
-  display: block;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
 }
 
 .testimonial {
-  margin: 0 auto 30px auto;
-  background-color: white;
-  border-radius: 10px;
+  background-color: #fff8dc;
   padding: 20px;
+  border-radius: 10px;
   width: 300px;
-  text-align: left;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .testimonial img {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  margin-bottom: 10px;
+  object-fit: cover;
+  margin-bottom: 15px;
 }
 
-.testimonial p {
+.testimonial-text {
   font-size: 16px;
-  color: #000000;
+  color: #333;
 }
 
-.testimonial .author {
-  font-size: 14px;
-  color: #333;
+.testimonial-text .author {
+  font-weight: bold;
   margin-top: 10px;
 }
 
 footer {
-  background: linear-gradient(90deg, #d8a7e0, #a77ed1);
+  background: #a77ed1;
   color: white;
-  padding: 40px 20px;
+  padding: 40px 20px;footer {
+    background-color: #a77ed1;
+    color: white;
+    padding: 40px 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-content .name {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: "Irish Grover", system-ui;
+  }
+  
+  .socials {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .socials div {
+    text-align: center;
+  }
+  
+  .socials img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+  }
+  
+  .socials p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
   text-align: center;
 }
 
